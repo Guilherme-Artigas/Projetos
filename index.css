@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Prompt&display=swap');
+/* 
+    font-family: 'Prompt', sans-serif; Titulos e menus
+    font-family: 'PT Sans', sans-serif; Paragrafos
+*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0px auto;
+    max-width: 500px;
+}
+/* Início do Header */
+nav.nav-superior>ul {
+    text-align: center;
+}
+nav.nav-superior>ul>a {
+    color: rgba(255, 255, 255);
+    text-decoration: none;
+}
+nav.nav-superior>ul>a:visited {
+    color: rgba(255, 255, 255);
+}
+nav.nav-superior>ul>a>li {
+    background: rgba(30, 144, 255);
+    border: 1px solid rgba(255, 255, 255);
+    color: rgba(255, 255, 255);
+    display: inline-block;
+    font-family: 'Prompt', sans-serif;
+    margin: 0px -2px;
+    padding: 10px 0px;
+    width: 50%;
+}
+/* Fim do Header */
+/* Início da s1-home */
+section.s1-home {
+    background: rgba(0, 0, 0, .9);
+    padding: 50px 0px;
+}
+section.s1-home>img {
+    border-radius: 150px;
+    display: block;
+    margin: 0px auto;
+}
+section.s1-home>h1 {
+    color: rgba(255, 255, 255);
+    font-family: 'Prompt', sans-serif;
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+/* Fim da s1-home */
+/* Início da s2-home */
+section.s2-home {
+    background: rgba(30, 144, 255, .8);
+    padding: 10px;
+}
+section.s2-home>h2 {
+    color: rgba(255, 255, 255);
+    font-family: 'Prompt', sans-serif;
+    margin: 20px 0px;
+    text-align: center;
+}
+section.s2-home>p {
+    color: rgba(255, 255, 255);
+    font-family: 'PT Sans', sans-serif;
+    text-align: justify;
+}
+section.s2-home>p>a {
+    color: rgba(255, 255, 255);
+}
+section.s2-home>p>a:visited {
+    color: rgba(255, 255, 255);
+}
+/* Fim da s2-home */
+/* Início do Footer */
+footer {
+    background: rgba(128, 128, 128, .1);
+    padding: 5px;
+}
+footer>a {
+    margin: 0px 5px;
+    position: relative; top: 3px;
+}
+/* Fim do Footer */
