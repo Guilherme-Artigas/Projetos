@@ -36,6 +36,9 @@ nav.nav-superior>ul>a>li {
 }
 /* Fim do Header */
 /* Início da s1-artigos */
+section.s1-projetos {
+    padding: 0px 5px;
+}
 section.s1-projetos>h1 {
     font-family: 'Prompt', sans-serif;
     margin: 40px 0px;
@@ -52,8 +55,8 @@ section.s1-projetos>ol>a:visited {
     color: rgba(255, 255, 255);
 }
 section.s1-projetos>ol>a>li {
-    background: rgba(30, 144, 255, .5);
-    border-bottom: 5px solid rgba(30, 144, 255, .9);
+    background: rgba(30, 144, 255, .9);
+    border-radius: 5px;
     font-family: 'PT Sans', sans-serif;
     margin: 20px 0px;
     padding: 10px 5px;
