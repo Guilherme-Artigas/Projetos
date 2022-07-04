@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+/* font-family: 'Ubuntu', sans-serif; */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --cor0: #10c6b8;
+  --cor1: #001011;
+  --cor2: #fac05e;
+  --cor3: #0e79b2;
+  --cor4: #ecce8e;
+}
+
+body {
+  background: rgb(253, 251, 251);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Fim das configurações gerais */
+header {
+  background: var(--cor1);
+  color: white;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+header#cabecalho {
+  position: fixed;
+  top: 0;
+}
+
+header#cabecalho>nav {
+  margin: 0px 0px 40px 0px;
+}
+
+header#cabecalho>nav>a {
+  border: 1px solid white;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  width: 49%;
+}
+
+header#cabecalho>nav>a>li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/* Fim da estilização no header */
+main {
+  text-align: center;
+}
+
+img#minha_foto {
+  border-radius: 50%;
+  border: 2px solid var(--cor3);
+  display: block;
+  margin: 300px auto;
+  padding: 1px;
+  width: 180px;
+}
+
+ol,
+ul {
+  list-style-position: inside;
+  padding: 10px;
+  margin: 20px 0px;
+  text-align: left;
+}
+
+section>article.lado-esquerdo {
+  display: inline-block;
+  width: 49%;
+}
+
+section>aside.lado-direito {
+  display: inline-block;
+  width: 49%;
+}
+
+section>article>p {
+  padding: 10px;
+  text-align: justify;
+  text-indent: 10px;
+}
+
+aside>p {
+  padding: 10px;
+  text-align: justify;
+  text-indent: 10px;
+}
+
+/* Fim da estilização no main */
+footer {
+  background: var(--cor1);
+  color: white;
+  margin: 40px 0px 0px 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+footer>a {
+  color: white;
+}
