@@ -4,3 +4,4 @@ Criei esse repositório para deixar de forma mais organizada todos os projetos q
 
 - [Projeto Passando conhecimento](https://guilherme-artigas.github.io/Projeto-Passando-Conhecimento/)
 - [Projeto Sobre Irina Blok](https://guilherme-artigas.github.io/Projeto-Sobre-IrinaBlok/)
+- [Pixels Art](https://guilherme-artigas.github.io/projetos/Pixels-Art/)
