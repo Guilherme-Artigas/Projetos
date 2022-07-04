@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0px;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px 0px;
+  padding: 20px;
+}
+
+ul#pixel-board {
+  height: 212px;
+  margin: 20px auto;
+  width: 212px;
+}
+
+.pixel {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin-bottom: -4px;
+  width: 40px;
+}
+
+.white {
+  background: white;
+}
+.black {
+  background: black;
+}
+.oceanGreen {
+  background: #2FC18C;
+}
+.bottleGreen {
+  background: #036B52;
+}
+.blueVioletWheel {
+  background: #41197F;
+}
