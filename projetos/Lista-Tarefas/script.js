@@ -46,3 +46,16 @@ botaoClearCompleted.addEventListener('click', function () {
     };
   };
 });
+
+const botaoSalvar = window.document.querySelector('button#salvar-tarefas');
+botaoSalvar.addEventListener('click', function () {
+  const itens = window.document.getElementById('lista-tarefas').innerHTML;
+  localStorage.setItem('salvar', itens);
+});
+
+function salvos () {
+  const list = window.document.querySelector('ol#lista-tarefas');
+  list.innerHTML = localStorage.getItem('salvar');
+};
+
+window.onload = salvos;

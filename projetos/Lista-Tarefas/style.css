@@ -33,7 +33,7 @@ header p#funcionamento {
 }
 
 input#texto-tarefa, button#criar-tarefa {
-  margin: 50px 5px;
+  margin: 50px 5px 10px 5px;
 }
 input#texto-tarefa {
   border-radius: 5px;
@@ -63,17 +63,22 @@ button#salvar-tarefas {
   color: white;
   padding: 5px;
 }
+button#mover-cima {
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
 
 ol#lista-tarefas {
   font-family: 'Chakra', sans-serif;
   list-style-position: inside;
-  margin: 0px auto;
-  padding: 10px;
+  margin: 20px auto;
+  /* padding: 1px; */
   text-align: left;
 }
 ol#lista-tarefas li {
-  margin: 10px 0px;
-  padding: 5px;
+  margin: 1px 0px;
+  padding: 10px;
 }
 .completed {
   text-decoration: line-through solid black;
