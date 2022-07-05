@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* font-family: 'Chakra Petch', sans-serif; */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: seashell;
+  text-align: center;
+}
+
+header {
+  background: dodgerblue;
+  box-shadow: 1px 5px 10px dodgerblue;
+  padding: 40px 10px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-family: 'Chakra', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0px 0px 40px 0px;
+}
+
+header p#funcionamento {
+  color: white;
+  font-family: 'Chakra', sans-serif;
+  font-weight: 500;
+}
+
+input#texto-tarefa, button#criar-tarefa {
+  margin: 50px 5px;
+}
+input#texto-tarefa {
+  border-radius: 5px;
+  padding: 5px;
+}
+button#criar-tarefa {
+  background: green;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+button#apaga-tudo {
+  background: brown;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+button#remover-finalizados {
+  background: lightskyblue;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+button#salvar-tarefas {
+  background: mediumaquamarine;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}
+
+ol#lista-tarefas {
+  font-family: 'Chakra', sans-serif;
+  list-style-position: inside;
+  margin: 0px auto;
+  padding: 10px;
+  text-align: left;
+}
+ol#lista-tarefas li {
+  margin: 10px 0px;
+  padding: 5px;
+}
+.completed {
+  text-decoration: line-through solid black;
+}
