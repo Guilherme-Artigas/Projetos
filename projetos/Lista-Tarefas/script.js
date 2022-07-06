@@ -13,16 +13,18 @@ botaoAdd.addEventListener('click', function () {
 
 olLista.addEventListener('click', function (arg1) {
   const fundoLi = window.document.querySelectorAll('ol#lista-tarefas li');
-  if (arg1.target.style.backgroundColor === '' || arg1.target.style.backgroundColor === 'seashell') {
-    for (let i of fundoLi) {
-      i.style.backgroundColor = 'seashell';
-    };
-    arg1.target.style.backgroundColor = 'gray';
+  for (let i of fundoLi) {
+    i.classList.remove('selecionado');
   };
+  if (arg1.target.className.includes('selecionado')) {
+    arg1.target.classList.remove('selecionado');
+  } else {
+    arg1.target.classList.add('selecionado');
+  }
 });
 
 olLista.addEventListener('dblclick', function (arg1) {
-  if (arg1.target.className === '') {
+  if (arg1.target.className === 'selecionado') {
     arg1.target.classList.add('completed');
   } else {
     arg1.target.classList.remove('completed');
@@ -41,7 +43,7 @@ const botaoClearCompleted = window.document.querySelector('button#remover-finali
 botaoClearCompleted.addEventListener('click', function () {
   const itens = window.document.querySelectorAll('ol#lista-tarefas li');
   for (let i of itens) {
-    if (i.className === 'completed') {
+    if (i.className.includes('completed')) {
       olLista.removeChild(i);
     };
   };
@@ -59,3 +61,29 @@ function salvos () {
 };
 
 window.onload = salvos;
+
+const botaoCima = window.document.querySelector('button#mover-cima');
+botaoCima.addEventListener('click', function () {
+  const itemSelecionado = window.document.querySelector('li.selecionado');
+  if (itemSelecionado == null || itemSelecionado.previousElementSibling === null) {
+    alert('Não é possivel mover o item selecionado!');
+  } else if (itemSelecionado.classList.contains('selecionado')) {
+    itemSelecionado.previousElementSibling.before(itemSelecionado);
+  };
+});
+
+const botaoBaixo = window.document.querySelector('button#mover-baixo');
+botaoBaixo.addEventListener('click', function () {
+  const itemSelecionado = window.document.querySelector('li.selecionado');
+  if (itemSelecionado == null || itemSelecionado.nextElementSibling === null) {
+    alert('Não é possivel mover o item selecionado!');
+  } else if (itemSelecionado.classList.contains('selecionado')) {
+    itemSelecionado.nextElementSibling.after(itemSelecionado);
+  };
+});
+
+const removeSelected = window.document.querySelector('button#remover-selecionado');
+removeSelected.addEventListener('click', function () {
+  const itemSelecionado = window.document.querySelector('li.selecionado');
+  olLista.removeChild(itemSelecionado);
+});

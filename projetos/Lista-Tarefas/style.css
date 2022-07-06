@@ -65,7 +65,16 @@ button#salvar-tarefas {
 }
 button#mover-cima {
   border-radius: 5px;
-  color: white;
+  color: black;
+  padding: 5px;
+}
+button#mover-baixo {
+  border-radius: 5px;
+  color: black;
+  padding: 5px;
+}
+button#remover-selecionado {
+  border-radius: 5px;
   padding: 5px;
 }
 
@@ -73,7 +82,6 @@ ol#lista-tarefas {
   font-family: 'Chakra', sans-serif;
   list-style-position: inside;
   margin: 20px auto;
-  /* padding: 1px; */
   text-align: left;
 }
 ol#lista-tarefas li {
@@ -82,4 +90,7 @@ ol#lista-tarefas li {
 }
 .completed {
   text-decoration: line-through solid black;
+}
+.selecionado {
+  background: gray;
 }
