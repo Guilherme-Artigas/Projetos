@@ -6,9 +6,13 @@ const listaTerfas = [];
 botaoAdd.addEventListener('click', function () {
   const itemLi = window.document.createElement('li');
   itemLi.innerText = tarefa.value;
-  listaTerfas.push(itemLi.innerText);
-  olLista.appendChild(itemLi);
-  tarefa.value = '';
+  if (tarefa.value === '') {
+    alert('Por favor digite alguma tarefa!');
+  } else {
+    listaTerfas.push(itemLi.innerText);
+    olLista.appendChild(itemLi);
+    tarefa.value = '';
+  };
 });
 
 olLista.addEventListener('click', function (arg1) {
