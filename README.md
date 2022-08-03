@@ -6,7 +6,7 @@ Criei esse repositório para deixar de forma mais organizada todos os projetos q
 
 Me dediquei a esse projeto com o intuito de colocar em prática conhecimentos adquiridos durante a minha caminhada no aprendizado de programação, apliquei carinho esforço, dedicação, um pouco de **HTML** e **CSS** nesse projeto e na ordem em que eu acredito ser a melhor no aprendizado dessa tecnologia. Obrigado por visitar o meu perfil❗
 
-<p style="text-align: center">
+<p align= "center">
   <img src="demonstracao-projeto-passando-conhecimento.gif" width="350px"/>
 </p>
 
