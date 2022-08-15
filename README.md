@@ -42,7 +42,7 @@ Esse projeto faz parte de um conjunto de módulos do curso de **HTML** e **CSS**
  
 Com o **Lista de tarefas** É possível adicionar novas tarefas, marcar as que já foram concluídas, excluir da lista apenas as que foram concluídas, limpar toda a lista, salvar e remover apenas as selecionadas, para marcar uma tarefa como concluída basta apenas dar um duplo click!
 
-<p style="text-align: center">
+<p align= "center">
   <img src="demonstracao-projeto-lista-tarefas.gif"/>
 </p>
 
