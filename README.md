@@ -36,6 +36,33 @@ Esse projeto faz parte de um conjunto de módulos do curso de **HTML** e **CSS**
 
 - [Pixels Art](https://guilherme-artigas.github.io/projetos/Pixels-Art/)
 
+# Projeto Lista de Tarefas 📝
+
+**Lista de Tarefas** foi um projeto bonûs desenvolvido durante o curso da Trybe, nele eu apliquei conhecimentos sobre manipulação do **DOM** através do Javascript, Salvar informações em **WebStorage** para que caso o usuário feche a página contendo alguma informação, quando voltar essas informações estejam salvas...
+ 
+Com o **Lista de tarefas** É possível adicionar novas tarefas, marcar as que já foram concluídas, excluir da lista apenas as que foram concluídas, limpar toda a lista, salvar e remover apenas as selecionadas, para marcar uma tarefa como concluída basta apenas dar um duplo click!
+
+<p style="text-align: center">
+  <img src="demonstracao-projeto-lista-tarefas.gif"/>
+</p>
+
 - [Lista de Tarefas](https://guilherme-artigas.github.io/projetos/Lista-Tarefas/)
+
+# Projeto TrybeWarts 🔮
+
+**Trybewarts** foi o meu primeiro projeto desenvolvido de forma colaborativa com o meu colega de turma [Guilherme Machado](https://www.linkedin.com/in/machadodev/), nesse projeto trabalhamos juntos para desenvolver lógicas com **JavaScript**, **Formulários em HTML**, Algumas Bibliotecas JS e Frameworks CSS como o **Maravilhoso Flebox** é um conceito importantíssimo que é a preocupação em desenvolver de forma responsiva usando a técnica mobile-first...
+ 
+### Algumas características desse projeto são:
+ 
+- Validação nos campos de e-mail e senha. (A mensagem de bem-vindo só aparece caso o e-mail seja tryber@teste.com e a senha 123456);
+- Campo de texto com contagem dinâmica de caracteres restantes;
+- Botão de envio de informações só é habilitado caso o usuário aceite o uso dessas informações;
+- Após o preenchimento do formulário é exibido todas as informações que foram preenchidas.
+
+<p style="text-align: center">
+  <img src="demonstracao-projeto-trybewarts.png"/>
+</p>
+
 - [TrybeWarts](https://guilherme-artigas.github.io/projetos/Trybewarts/)
+
 - [Carrinho de Compras](https://guilherme-artigas.github.io/projetos/Carrinho-de-Compras/)
