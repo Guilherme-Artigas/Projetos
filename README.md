@@ -38,3 +38,4 @@ Esse projeto faz parte de um conjunto de módulos do curso de **HTML** e **CSS**
 
 - [Lista de Tarefas](https://guilherme-artigas.github.io/projetos/Lista-Tarefas/)
 - [TrybeWarts](https://guilherme-artigas.github.io/projetos/Trybewarts/)
+- [Carrinho de Compras](https://guilherme-artigas.github.io/projetos/Carrinho-de-Compras/)
