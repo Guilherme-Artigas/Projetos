@@ -1,4 +1,4 @@
-# Repositorio contendo todos os meu projetos 🚧
+# 🚧 Esse Repositório não é obra do governo, porém estará em eterna construção! 🚧
 
 Criei esse repositório para deixar de forma mais organizada todos os projetos que vou desenvolvendo durante toda minha trajetória, para a pratica pessoal, ideias e testes com as tecnologias que venho aprendendo ao longo da minha jornada.
 
@@ -30,7 +30,7 @@ Esse projeto faz parte de um conjunto de módulos do curso de **HTML** e **CSS**
  
 **Pixels Art** É uma página simples que o usuário pode escolher uma entre 4 cores, sendo 3 delas geradas de forma aleatória a cada carregamento da página, e pintar os quadrados em branco, também é possível escolher a quantidade de quadrados para pintar e limpar a board caso queira! É um projeto simples, mas me trouxe muitos conhecimentos!! Obrigado por visitar...
 
-<p style="text-align: center">
+<p>
   <img src="demonstracao-pixelsArt.gif">
 </p>
 
@@ -50,7 +50,7 @@ Com o **Lista de tarefas** É possível adicionar novas tarefas, marcar as que j
 
 # Projeto TrybeWarts 🔮
 
-**Trybewarts** foi o meu primeiro projeto desenvolvido de forma colaborativa com o meu colega de turma [Guilherme Machado](https://www.linkedin.com/in/machadodev/), nesse projeto trabalhamos juntos para desenvolver lógicas com **JavaScript**, **Formulários em HTML**, Algumas Bibliotecas JS e Frameworks CSS como o **Maravilhoso Flebox** é um conceito importantíssimo que é a preocupação em desenvolver de forma responsiva usando a técnica mobile-first...
+**Trybewarts** foi o meu primeiro projeto desenvolvido de forma colaborativa com o meu colega de turma [Guilherme Machado](https://www.linkedin.com/in/machadodev/), nesse projeto trabalhamos juntos para desenvolver lógicas com **JavaScript**, **Formulários em HTML**, Algumas Bibliotecas JS e Frameworks CSS como o **Maravilhoso Flexbox** e um conceito importantíssimo que é a preocupação em desenvolver de forma responsiva usando a técnica mobile-first...
  
 ### Algumas características desse projeto são:
  
@@ -59,10 +59,20 @@ Com o **Lista de tarefas** É possível adicionar novas tarefas, marcar as que j
 - Botão de envio de informações só é habilitado caso o usuário aceite o uso dessas informações;
 - Após o preenchimento do formulário é exibido todas as informações que foram preenchidas.
 
-<p style="text-align: center">
+<p>
   <img src="demonstracao-projeto-trybewarts.png"/>
 </p>
 
 - [TrybeWarts](https://guilherme-artigas.github.io/projetos/Trybewarts/)
+
+# Projeto Carrinho de compras 🛒
+
+Nesse projeto eu apliquei conhecimentos adquiridos no bloco 09 do curso da [Trybe](https://www.betrybe.com/), como por exemplo: **Javascript assíncrono e callbacks, requisições a APIs e testes também de forma assíncrona com o Jest**.
+ 
+**Algumas informações importantes sobre esse projeto...** Ele foi desenvolvido com o intuito de consolidar conhecimentos sobre consumo de **APIs**, para isso usamos a API do mercado livre. O projeto trata-se de uma listagem de 50 produtos relacionados a tecnologia, nele é possível adicionar e remover itens ao carrinho ao mesmo tempo em que temos uma lógica calculando o valor dos produtos de forma dinâmica, os itens do carrinho ficam salvos em localStorage caso a paǵina seja fechada e haja itens no carrinho.
+
+<p align= "center">
+  <img src="demonstracao-projeto-shopping-cart.gif"/>
+</p>
 
 - [Carrinho de Compras](https://guilherme-artigas.github.io/projetos/Carrinho-de-Compras/)

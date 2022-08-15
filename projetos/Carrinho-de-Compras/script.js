@@ -66,13 +66,13 @@ sectionCart.appendChild(paragraph);
 const sumTotalAmount = async (idItem) => {
   const productFull = await fetchItem(idItem);
   sum += productFull.price;
-  paragraph.innerHTML = sum;
+  paragraph.innerHTML = `R$ ${Math.abs(sum.toFixed(2))}`;
 };
 
 const subTotalValue = async (idItem) => {
   const productFull = await fetchItem(idItem);
   sum -= productFull.price;
-  paragraph.innerHTML = sum;
+  paragraph.innerHTML = `R$ ${Math.abs(sum.toFixed(2))}`;
 };
 
 const cartItemClickListener = (event) => {
