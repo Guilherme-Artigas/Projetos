@@ -2,9 +2,10 @@ const olFather = window.document.querySelector('ol.cart__items');
 
 const productClean = async () => {
   const fullItem = await fetchProducts('computador');
+  console.log(fullItem);
   return fullItem.results.reduce((productsList, e) => {
-    const { id: sku, title: name, thumbnail: image } = e;
-    productsList.push({ sku, name, image });
+    const { id: sku, title: name, thumbnail: image, price } = e;
+    productsList.push({ sku, name, image, price });
     return productsList;
   }, []);
 };
@@ -30,7 +31,7 @@ const loadingText = () => {
   return paragraph;
 };
 
-const createProductItemElement = ({ sku, name, image }) => {
+const createProductItemElement = ({ sku, name, image, price }) => {
   const section = document.createElement('section');
   section.className = 'item';
   
@@ -42,8 +43,9 @@ const createProductItemElement = ({ sku, name, image }) => {
       section.appendChild(createCustomElement('span', 'item__title', name));
       section.appendChild(createProductImageElement(image));
       section.appendChild(createCustomElement('button', 'item__add', 'Adicionar ao carrinho!'));
+      section.appendChild(createCustomElement('span', 'price-list', `R$ ${price.toFixed(2)}`))
     }
-  }, 1000);
+  }, 500);
 
   return section;
 };
