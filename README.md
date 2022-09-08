@@ -6,9 +6,11 @@ Criei esse repositório para deixar de forma mais organizada todos os projetos q
 
 Me dediquei a esse projeto com o intuito de colocar em prática conhecimentos adquiridos durante a minha caminhada no aprendizado de programação, apliquei carinho esforço, dedicação, um pouco de **HTML** e **CSS** nesse projeto e na ordem em que eu acredito ser a melhor no aprendizado dessa tecnologia. Obrigado por visitar o meu perfil❗
 
-<p align= "center">
-  <img src="demonstracao-projeto-passando-conhecimento.gif" width="350px"/>
-</p>
+<details><summary>Gif do projeto</summary>
+  <p align= "center">
+    <img src="demonstracao-projeto-passando-conhecimento.gif" width="350px"/>
+  </p>
+</details>
 
 - [Projeto Passando conhecimento](https://guilherme-artigas.github.io/Projeto-Passando-Conhecimento/)
 
@@ -18,9 +20,11 @@ Desenvolvi esse projeto com muito carinho e preocupação em manter um código l
 
 Esse projeto faz parte de um conjunto de módulos do curso de **HTML** e **CSS** do [curso em vídeo](https://www.cursoemvideo.com/).
 
-<p style="text-align: center">
-  <img src="demonstracao-projeto-irina-blok.gif"/>
-</p>
+<details><summary>Gif do projeto</summary>
+  <p style="text-align: center">
+    <img src="demonstracao-projeto-irina-blok.gif"/>
+  </p>
+</details>
 
 - [Projeto Sobre Irina Blok](https://guilherme-artigas.github.io/Projeto-Sobre-IrinaBlok/)
 
@@ -30,9 +34,11 @@ Esse projeto faz parte de um conjunto de módulos do curso de **HTML** e **CSS**
  
 **Pixels Art** É uma página simples que o usuário pode escolher uma entre 4 cores, sendo 3 delas geradas de forma aleatória a cada carregamento da página, e pintar os quadrados em branco, também é possível escolher a quantidade de quadrados para pintar e limpar a board caso queira! É um projeto simples, mas me trouxe muitos conhecimentos!! Obrigado por visitar...
 
-<p>
-  <img src="demonstracao-pixelsArt.gif">
-</p>
+<details><summary>Gif do projeto</summary>
+  <p>
+    <img src="demonstracao-pixelsArt.gif">
+  </p>
+</details>
 
 - [Pixels Art](https://guilherme-artigas.github.io/projetos/Pixels-Art/)
 
@@ -42,9 +48,11 @@ Esse projeto faz parte de um conjunto de módulos do curso de **HTML** e **CSS**
  
 Com o **Lista de tarefas** É possível adicionar novas tarefas, marcar as que já foram concluídas, excluir da lista apenas as que foram concluídas, limpar toda a lista, salvar e remover apenas as selecionadas, para marcar uma tarefa como concluída basta apenas dar um duplo click!
 
-<p align= "center">
-  <img src="demonstracao-projeto-lista-tarefas.gif"/>
-</p>
+<details><summary>Gif do projeto</summary>
+  <p align= "center">
+    <img src="demonstracao-projeto-lista-tarefas.gif"/>
+  </p>
+</details>
 
 - [Lista de Tarefas](https://guilherme-artigas.github.io/projetos/Lista-Tarefas/)
 
@@ -59,9 +67,11 @@ Com o **Lista de tarefas** É possível adicionar novas tarefas, marcar as que j
 - Botão de envio de informações só é habilitado caso o usuário aceite o uso dessas informações;
 - Após o preenchimento do formulário é exibido todas as informações que foram preenchidas.
 
-<p>
-  <img src="demonstracao-projeto-trybewarts.png"/>
-</p>
+<details><summary>Imagem do projeto</summary>
+  <p>
+    <img src="demonstracao-projeto-trybewarts.png"/>
+  </p>
+</details>
 
 - [TrybeWarts](https://guilherme-artigas.github.io/projetos/Trybewarts/)
 
@@ -71,8 +81,10 @@ Nesse projeto eu apliquei conhecimentos adquiridos no bloco 09 do curso da [Tryb
  
 **Algumas informações importantes sobre esse projeto...** Ele foi desenvolvido com o intuito de consolidar conhecimentos sobre consumo de **APIs**, para isso usamos a API do mercado livre. O projeto trata-se de uma listagem de 50 produtos relacionados a tecnologia, nele é possível adicionar e remover itens ao carrinho ao mesmo tempo em que temos uma lógica calculando o valor dos produtos de forma dinâmica, os itens do carrinho ficam salvos em localStorage caso a paǵina seja fechada e haja itens no carrinho.
 
+<details><summary>Gif do projeto</summary>
 <p align= "center">
   <img src="demonstracao-projeto-shopping-cart.gif"/>
 </p>
+</details>
 
 - [Carrinho de Compras](https://guilherme-artigas.github.io/projetos/Carrinho-de-Compras/)
